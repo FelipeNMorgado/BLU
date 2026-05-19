@@ -1,0 +1,4 @@
+dataset/
+runs/
+venv/
+*yolov8n.pt

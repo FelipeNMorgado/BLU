@@ -1,0 +1,3 @@
+Url para baixar o dataset.
+
+https://universe.roboflow.com/ds/pUS4fzNR2o?key=HP4J5gZRkW
