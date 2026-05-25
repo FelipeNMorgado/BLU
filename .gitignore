@@ -1,3 +1,6 @@
 runs/
 venv/
 *yolov8n.pt
+.env
+*.pkl
+*.pt
