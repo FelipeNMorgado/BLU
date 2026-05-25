@@ -1,0 +1,6 @@
+Dataset - será criado um SubRepositório para armazenas as imagens do Dataset
+
+RedeNeural/.pkl - Será criada um seimulação de armezenamento em nuvem para guardar esses arquivos, MINIO 
+
+Restante e código ficará guardado dentro do Git principal.
+
