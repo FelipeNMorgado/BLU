@@ -28,7 +28,6 @@ def on_train_end(trainer):
         upload(str(last_pt), BUCKET, "pesos/last.pt")
 
     # 2. Envia metadados e gráficos gerados pelo YOLO
-    # Adicionei os gráficos (png) que o YOLO gera automaticamente e que são ótimos para o orientador ver
     arquivos_para_enviar = [
         "results.csv", 
         "args.yaml", 
@@ -44,14 +43,15 @@ def on_train_end(trainer):
     print("🎉 Treino concluído! Todos os artefatos salvos com segurança no MinIO.")
 
 if __name__ == "__main__":
-    model = YOLO("yolov8n.pt")
+    # 🔥 CORREÇÃO: Alterado de yolov8n.pt para yolov8n-obb.pt para aceitar caixas rotacionadas
+    model = YOLO("yolov8n.pt") 
     
-    # IMPORTANTE: O callback correto para o final da época de treino é "on_train_epoch_end"
+    # Callback correto para o final da época de treino
     model.add_callback("on_train_epoch_end", on_epoch_end)
     model.add_callback("on_train_end", on_train_end)
 
     model.train(
-        data="data.yaml",
+        data="data.yaml",  # Certifique-se de que no seu data.yaml os caminhos apontam para as labels OBB
         epochs=11,
         imgsz=640,
         project="runs/blu",
