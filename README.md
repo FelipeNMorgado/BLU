@@ -34,24 +34,6 @@ Envio dos dados coletados para a infraestrutura de processamento.
 ### Plataforma de Monitoramento
 Recebe, processa e disponibiliza as informações para os usuários através de uma interface digital.
 
-```text
-┌───────────────┐
-│ Sensores/Câmeras │
-└───────┬───────┘
-        │
-        ▼
-┌───────────────┐
-│ Processamento │
-│ Machine Learning │
-└───────┬───────┘
-        │
-        ▼
-┌───────────────┐
-│ Plataforma Web │
-│ Monitoramento  │
-└───────────────┘
-```
-
 ---
 
 ## Tecnologias Utilizadas
