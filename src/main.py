@@ -44,7 +44,7 @@ def on_train_end(trainer):
 
 if __name__ == "__main__":
     # 🔥 CORREÇÃO: Alterado de yolov8n.pt para yolov8n-obb.pt para aceitar caixas rotacionadas
-    model = YOLO("yolov8n.pt") 
+    model = YOLO("yolov8n-obb.pt") 
     
     # Callback correto para o final da época de treino
     model.add_callback("on_train_epoch_end", on_epoch_end)
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
     model.train(
         data="data.yaml",  # Certifique-se de que no seu data.yaml os caminhos apontam para as labels OBB
-        epochs=11,
+        epochs=22,
         imgsz=640,
         project="runs/blu",
         name="v1"
