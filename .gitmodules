@@ -1,6 +1,7 @@
-[submodule "dataset"]
-	path = dataset
-	url = https://github.com/FelipeNMorgado/BLU-dataset.git
 [submodule "blu-embarcado"]
 	path = blu-embarcado
 	url = https://github.com/Breno-Lira/Projeto-BLU.git
+	
+[submodule "BLU-dataset"]
+	path = BLU-dataset
+	url = https://github.com/FelipeNMorgado/BLU-dataset.git
