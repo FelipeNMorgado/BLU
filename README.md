@@ -118,14 +118,6 @@ Projeto desenvolvido por:
 
 ---
 
-## Publicação
-
-Este projeto foi apresentado na **Mostra Nacional de Robótica (MNR 2025)**.
-
-**Artigo:** *BLU - Best Location for Urban Parking*
-
----
-
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
