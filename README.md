@@ -1,9 +1,5 @@
 # BLU - Best Location for Urban Parking
 
-<p align="center">
-  <img src="docs/logo.png" alt="BLU Logo" width="250"/>
-</p>
-
 ## Sobre o Projeto
 
 O **BLU (Best Location for Urban Parking)** é uma solução inteligente para monitoramento de vagas de estacionamento urbano, desenvolvida com o objetivo de modernizar o sistema de Zona Azul por meio de tecnologias de **IoT**, **Visão Computacional**, **Machine Learning** e **Monitoramento em Tempo Real**.
@@ -71,15 +67,6 @@ Recebe, processa e disponibiliza as informações para os usuários através de 
 
 ---
 
-## Dimensões das Vagas Monitoradas
-
-| Tipo | Dimensões |
-|--------|------------|
-| Carro | 5,5m x 2,3m |
-| Moto | 1,0m x 2,2m |
-
----
-
 ## Funcionalidades
 
 - Detecção automática de ocupação das vagas.
@@ -128,8 +115,6 @@ Projeto desenvolvido por:
 - Lucas Ramon
 - Lucas de Holanda Barros Soares
 - Thiago Manguinho Rodrigues de Sousa
-- Jimmy Paul Souza Barreto
-- Izabella Nunes de Vasconcelos
 
 ---
 
