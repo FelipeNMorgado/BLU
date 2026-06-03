@@ -1,3 +1,5 @@
 ultralytics
 minio
 python-dotenv
+mlflow 
+boto3

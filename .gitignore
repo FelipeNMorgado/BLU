@@ -4,3 +4,4 @@ venv/
 .env
 *.pkl
 *.pt
+*.db
