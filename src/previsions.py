@@ -4,9 +4,9 @@ from ultralytics import YOLO
 model = YOLO("Modelo\\best.pt")
 
 # Faz a previsão
-results = model("dataset/previsions2")
+results = model("Fotos-estacionamento")
 
 # Exibe resultado
 results[0].show()
 for i in range(28):
-   results[i].save("BLU/dataset/results/saida_" + str(i) + ".jpg")
+   results[i].save("results/saida_" + str(i) + ".jpg")
