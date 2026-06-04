@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 def main():
     # ---- MODO DE TESTE LOCAL (Fixo) ----
-    image_path = "D:\\GitHub\\BLU\\Fotos-estacionamento\\foto1.jpg" 
+    image_path = "D:\\GitHub\\BLU\\Fotos-estacionamento\\exemplo.jpg" 
     
     if not os.path.exists(image_path):
         print(json.dumps({"erro": f"Arquivo nao encontrado: {image_path}"}, indent=4))
