@@ -3,7 +3,7 @@
     "vagas_disponiveis": 4,
     "total_vagas_detectadas": 7,
     "imagem_anotada_salva_em": "D:\\GitHub\\BLU\\results\\fotos\\saida1_exemplo.jpg",
-    "json_salvo_em": "D:\\GitHub\\BLU\\results\\json\\resultado_exemplo.json",
+    "json_salvo_em": "D:\\GitHub\\BLU\\results\\json\\resultado1_exemplo.json",
     "detalhes": [
         {
             "status": "livre",
